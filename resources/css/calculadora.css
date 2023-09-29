@@ -1,0 +1,280 @@
+/* SideBar */
+#sidebar-wrapper{
+  z-index:2;
+  position: absolute;
+  width:0;
+  height:100%;
+  overflow-y:hidden;
+  background: #ffffff;
+	transition:all .2s;
+	display:flex;
+  /* border-radius: 25px; */
+}
+
+/* Main Content */
+#page-content-wrapper{
+  width: 100%;
+	transition:all .5s;
+}
+
+#bloq-wrapper{
+  z-index:1;
+  position: absolute;
+  width:0;
+  height:100%;
+  overflow-y:hidden;
+  background: #535353;
+  opacity:0.4;
+	display:flex;
+}
+
+.container-side-logo a{
+  cursor: unset;
+}
+
+.container-side-logo img{
+  cursor: pointer;
+}
+
+.upBar{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-top: 4px solid #FF5757;
+  border-bottom: 4px solid #FF5757;
+}
+
+.upBar .btn-up{
+  width: 60px;
+}
+
+.upBar .btn-up:hover{
+  background: rgba(59, 59, 59, 0.1);
+  border-radius: 20px;
+}
+
+.up-logo{
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-all{
+  width: 100%;
+}
+
+#page-content-wrapper a{
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+}
+
+#menu-toggle{
+	transition:all .2s;
+  cursor: pointer;
+}
+
+.side-logo{
+  width: 40px;
+  margin-top: 30px;
+}
+
+.side-medic{
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/medicina.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+a:hover .side-medic {
+  background-image: url("../img/medicina-active.png");
+}
+
+
+.side-medic{
+  margin-right: 10px;
+}
+
+/* Change the width of the sidebar to display it*/
+#wrapper.menuDisplayed #sidebar-wrapper{
+  width:250px;
+  border: 1px solid rgb(59, 59, 59);;
+}
+
+#wrapper.menuDisplayed #bloq-wrapper{
+  width:100%;
+}
+
+/* Sidebar styling */
+.sidebar-nav{
+  padding:0;
+  list-style:none; 
+	transition:all .2s;
+	width:100%;
+}
+
+.sidebar-nav li{
+  line-height:40px;  
+	width:100%;
+	transition:all .2s;
+	padding:10px;
+}
+
+li a{
+  color: black;
+}
+
+.sidebar-nav li a {
+  display:block;
+  font-size: 26px;
+  text-decoration:none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.sidebar-nav li a:hover{
+  background:rgba(255, 87, 87, 0.2);
+  color: #FF5757;
+  border-radius: 5px;
+}
+
+hr{
+  background: rgba(59, 59, 59, 0.3);
+}
+
+/* NavBar medicina */
+nav{
+  background-color: #FF5757;
+  width: 100%;
+  height: 80px;
+}
+
+.nav-icons{
+  background-color: #FF5757;
+  width: 130px;
+  height: 80px;
+  cursor: pointer;
+}
+
+a .nav-icons{
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+a .nav-icons:hover{
+  font-size: 18px;
+}
+
+.nav-icons img{
+  width: 30px;
+}
+
+.nav-icons:hover img {
+  transform: scale(1.1);
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+
+a .nav-icons:hover{
+  border-left: 1px solid  rgba(68, 68, 68, 0.3);
+  border-right: 1px solid  rgba(68, 68, 68, 0.3);
+  box-shadow: 0px 8px 10px -8px #474747;
+  height: 80px;
+}
+
+.border-simulator{
+  width: 100%;
+  height: 2px;
+  background: #fff;
+}
+
+
+/* Active */
+.active{
+  background:rgba(255, 87, 87, 0.2);
+  color: #FF5757;
+  border-radius: 5px;
+}
+
+.activeIcon{
+  background-image: url("../img/medicina-active.png");
+}
+
+/* Inicio */
+.titulo-inicio{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.card{
+  width: 190px;
+  transition: all 0.6s ease;
+  cursor: pointer;
+  border-right: 2px solid #c9c9c9 !important;
+  border-left: 2px solid #c9c9c9 !important;
+
+}
+
+.card img{
+  width: 120px;
+  margin: 8px;
+  transition: all 0.6s ease;
+}
+
+.card:hover img {
+  scale: 1.2
+}
+
+.card:hover {
+  background: #FF5757;
+  color: white;
+}
+
+.card-body{
+  margin-bottom: 8px;
+}
+
+.opcion-menu a{
+  text-decoration: none !important;
+  color: black;
+}
+
+#mostrarMas{
+  transition: all 0.4s ease;
+  width: 190px !important;
+  background: #3c8dbc;
+  text-align: center;
+}
+
+#mostrarMas:hover{
+  background: #29719b;
+}
+
+#mostrarMas img{
+  transition: all 0.4s ease;
+}
+
+#mostrarMas:hover img{
+  scale: 1.1;
+}
+
+#menuInfo{
+  background: #3c8dbc;
+  color: #ffffff;
+  padding: 8px;
+  width: 190px;
+  text-align: center;
+  display: none;
+}
+
+.containr-inicio{
+  column-count: 5;
+}
