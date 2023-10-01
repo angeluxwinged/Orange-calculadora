@@ -4,8 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-// use App\Models\Consejo;
-
 class CalculadoraController extends Controller
 {
     function index(){
@@ -17,6 +15,6 @@ class CalculadoraController extends Controller
     }
 
     function IMC(){
-        return view('medicina.IMC');
+        return view('medicina.goteo');
     }
 }
