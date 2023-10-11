@@ -4,12 +4,15 @@
 
 @section('content')
     <div class="banner-medicina">
-        {{-- <select name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
-        </select> --}}
+        <select name="" id="">
+            <option value="">ABCD</option>
+            <option value="">EFGH</option>
+            <option value="">IJKL</option>
+            <option value="">MNOP</option>
+            <option value="">QRST</option>
+            <option value="">UVWX</option>
+            <option value="">YZ</option>
+        </select>
 
         <form>
             <div class="form-srch-medic">
@@ -26,7 +29,7 @@
             <div class="col-md-offset-2 mx-4">
                 <div class="text-center">
                     <div class="card-medicina">
-                        <div class="icon"><img src="{{ asset('../resources/img/medicina/imc.png') }}" alt=""></div>
+                        <div class="icon"><img src="{{ asset('dist/img/medicina/imc.png') }}" alt=""></div>
                         <h5>Índice de masa corporal</h5>
                         <p>Medicina clínica</p>
                         <a class="saber-mas" href="#">Saber más</a><br>
@@ -40,7 +43,7 @@
             <div class="col-md-offset-2 mx-4">
                 <div class="text-center">
                     <div class="card-medicina">
-                        <div class="icon"><img src="{{ asset('../resources/img/medicina/eg.png') }}" alt=""></div>
+                        <div class="icon"><img src="{{ asset('dist/img/medicina/eg.png') }}" alt=""></div>
                         <h5>Edad gestacional</h5>
                         <p>Obstetricia</p>
                         <a class="saber-mas" href="#">Saber más</a><br>
@@ -54,7 +57,7 @@
             <div class="col-md-offset-2 mx-4">
                 <div class="text-center">
                     <div class="card-medicina">
-                        <div class="icon"><img src="{{ asset('../resources/img/medicina/fpp.png') }}" alt=""></div>
+                        <div class="icon"><img src="{{ asset('dist/img/medicina/fpp.png') }}" alt=""></div>
                         <h5>Fecha probable del parto</h5>
                         <p>Obstetricia</p>
                         <a class="saber-mas" href="#">Saber más</a><br>
@@ -68,7 +71,7 @@
             <div class="col-md-offset-2 mx-4">
                 <div class="text-center">
                     <div class="card-medicina">
-                        <div class="icon"><img src="{{ asset('../resources/img/medicina/cpg.png') }}" alt=""></div>
+                        <div class="icon"><img src="{{ asset('dist/img/medicina/cpg.png') }}" alt=""></div>
                         <h5>Cálculo por Goteo</h5>
                         <p>Farmacología Clínica</p>
                         <a class="saber-mas" href="#">Saber más</a><br>
@@ -82,7 +85,7 @@
             <div class="col-md-offset-2 mx-4">
                 <div class="text-center">
                     <div class="card-medicina">
-                        <div class="icon"><img src="{{ asset('../resources/img/medicina/pi.png') }}" alt=""></div>
+                        <div class="icon"><img src="{{ asset('dist/img/medicina/pi.png') }}" alt=""></div>
                         <h5>Pérdidas insensibles</h5>
                         <p>Fisiología Médica</p>
                         <a class="saber-mas" href="#">Saber más</a><br>
@@ -96,7 +99,7 @@
             <div class="col-md-offset-2 mx-4">
                 <div class="text-center">
                     <div class="card-medicina">
-                        <div class="icon"><img src="{{ asset('../resources/img/medicina/fp.png') }}" alt=""></div>
+                        <div class="icon"><img src="{{ asset('dist/img/medicina/fp.png') }}" alt=""></div>
                         <h5>Fórmula de Parkland</h5>
                         <p>Quemaduras</p>
                         <a class="saber-mas" href="#">Saber más</a><br>
@@ -110,7 +113,7 @@
             <div class="col-md-offset-2 mx-4">
                 <div class="text-center">
                     <div class="card-medicina">
-                        <div class="icon"><img src="{{ asset('../resources/img/medicina/cd.png') }}" alt=""></div>
+                        <div class="icon"><img src="{{ asset('dist/img/medicina/cd.png') }}" alt=""></div>
                         <h5>Cálculo de dosis</h5>
                         <p>Farmacología Clínica</p>
                         <a class="saber-mas" href="#">Saber más</a><br>
