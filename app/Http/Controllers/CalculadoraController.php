@@ -15,6 +15,6 @@ class CalculadoraController extends Controller
     }
 
     function IMC(){
-        return view('medicina.goteo');
+        return view('medicina.IMC');
     }
 }

@@ -18,5 +18,5 @@ Route::get('/', [CalculadoraController::class, 'index'])->name('inicio');
 
 Route::prefix('medicina')->group(function () {
     Route::get('/', [CalculadoraController::class, 'medicina'])->name('medicina');
-    Route::get('/IMC', [CalculadoraController::class, 'IMC'])->name('medicina.goteo');
+    Route::get('/IMC', [CalculadoraController::class, 'IMC'])->name('medicina.IMC');
 });
