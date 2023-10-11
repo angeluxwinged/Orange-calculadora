@@ -21,7 +21,7 @@
             <div class="container-side-logo">
               <a href="{{ route('inicio') }}" style="display:flex; justify-content: center; align-items: center;">
                 <img class="side-logo" src="{{ asset('dist/img/logo.png') }}">
-            </a>
+              </a>
             </div>
 
               <li><hr></li>
@@ -63,7 +63,9 @@
                     <img class="btn btn-up" id="menu-toggle" src="{{ asset('dist/img/menu.png') }}">
                   @endif
                 
-                  <img class="up-logo" src="{{ asset('dist/img/logo.png') }}">
+                  <a class="up-logo" href="{{ route('inicio') }}">
+                    <img class="up-logo" src="{{ asset('dist/img/logo.png') }}">
+                  </a>
                 </div>
 
                 <div class="content-all">

@@ -4,7 +4,11 @@
 
 @section('content')
     <div class="banner-medicina">
-        <select name="" id="">
+        <div class="divSelect-icon-medic">
+            <input class="select-icon-medic">
+        </div>
+        <select class="select-medicina" name="" id="">
+            <option value="">Todas</option>
             <option value="">ABCD</option>
             <option value="">EFGH</option>
             <option value="">IJKL</option>
@@ -13,6 +17,7 @@
             <option value="">UVWX</option>
             <option value="">YZ</option>
         </select>
+
 
         <form>
             <div class="form-srch-medic">

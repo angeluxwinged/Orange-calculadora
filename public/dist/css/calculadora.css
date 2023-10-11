@@ -334,6 +334,7 @@ a .nav-icons:hover{
   background: linear-gradient(to bottom, #FF5757, #ffb9b9);
   border-top: 4px solid #fff;
   display: flex;
+  align-items: center;
   justify-content: end;
 }
 
@@ -349,9 +350,10 @@ a .nav-icons:hover{
   background-size: cover;
   width: 40px;
   height: 40px;
-  border: 2px solid #000;
+  border: 1px solid #000;
   cursor: pointer;
   border-radius: 0 8px 8px 0;
+  margin-right: 20px;
 }
 
 .sbmtSearch-medic {
@@ -362,12 +364,47 @@ a .nav-icons:hover{
   font-size: 17px;
   padding: 0 12px;
   text-align: center;
-  border: 2px solid #000;
+  border: 1px solid #000;
   border-radius: 8px 0 0 8px;
   width: 300px;
   height: 40px;
 }
 
 .buscador-medicina:focus{
-  outline: 3px solid #FF5757;
+  outline: 2px solid #FF5757;
+}
+
+.select-medicina{
+  font-size: 17px;
+  padding: 0 12px;
+  text-align: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.select-medicina:focus{
+  outline: none;
+}
+
+.select-icon-medic{
+  display: none;
+}
+
+.divSelect-icon-medic {
+  display: inline-block;
+  background: url('../img/medicina/orden-icon.png') no-repeat center center;
+  background-color: #fff;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-radius: 8px 0 0 8px;
 }
