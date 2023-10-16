@@ -30,8 +30,8 @@
     </div>
 
     <div class="container-medicina">
-        <div class="row justify-content-center">
-            <div class="col-md-offset-2 mx-4">
+        <div class="row m-0 mb-5 justify-content-center">
+            <div class="col-md-offset-2 ml-4 mr-4">
                 <div class="text-center">
                     <div class="card-medicina">
                         <div class="icon"><img src="{{ asset('dist/img/medicina/imc.png') }}" alt=""></div>
@@ -45,7 +45,7 @@
                 </div>
             </div>
             
-            <div class="col-md-offset-2 mx-4">
+            <div class="col-md-offset-2 ml-4 mr-4">
                 <div class="text-center">
                     <div class="card-medicina">
                         <div class="icon"><img src="{{ asset('dist/img/medicina/eg.png') }}" alt=""></div>
@@ -59,7 +59,7 @@
                 </div>
             </div>
 
-            <div class="col-md-offset-2 mx-4">
+            <div class="col-md-offset-2 ml-4 mr-4">
                 <div class="text-center">
                     <div class="card-medicina">
                         <div class="icon"><img src="{{ asset('dist/img/medicina/fpp.png') }}" alt=""></div>
@@ -73,7 +73,7 @@
                 </div>
             </div>
 
-            <div class="col-md-offset-2 mx-4">
+            <div class="col-md-offset-2 ml-4 mr-4">
                 <div class="text-center">
                     <div class="card-medicina">
                         <div class="icon"><img src="{{ asset('dist/img/medicina/cpg.png') }}" alt=""></div>
@@ -87,7 +87,7 @@
                 </div>
             </div>
 
-            <div class="col-md-offset-2 mx-4">
+            <div class="col-md-offset-2 ml-4 mr-4">
                 <div class="text-center">
                     <div class="card-medicina">
                         <div class="icon"><img src="{{ asset('dist/img/medicina/pi.png') }}" alt=""></div>
@@ -101,7 +101,7 @@
                 </div>
             </div>
 
-            <div class="col-md-offset-2 mx-4">
+            <div class="col-md-offset-2 ml-4 mr-4">
                 <div class="text-center">
                     <div class="card-medicina">
                         <div class="icon"><img src="{{ asset('dist/img/medicina/fp.png') }}" alt=""></div>
@@ -115,7 +115,7 @@
                 </div>
             </div>
 
-            <div class="col-md-offset-2 mx-4">
+            <div class="col-md-offset-2 ml-4 mr-4">
                 <div class="text-center">
                     <div class="card-medicina">
                         <div class="icon"><img src="{{ asset('dist/img/medicina/cd.png') }}" alt=""></div>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
             </div>
-
+            
         </div>
     </div>
 

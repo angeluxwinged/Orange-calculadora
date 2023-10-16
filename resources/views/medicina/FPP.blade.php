@@ -3,9 +3,27 @@
 @section('title','FPP')
 
 @section('content')
-    <h2>FPP</h2>
-    <form action="">
-        <input type="date" id="fppFUM">
-        <button type="submit">Calcular</button>
-    </form>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center ">
+            <div class="col-md-10 mb-5">
+                <form class="form bg-light p-5 form-medic d-flex" action="" method="post">
+                    <div class="col-md-6">
+                        <h3 class="text-center mb-4">Fecha Probable del Parto</h3>
+                        <div class="form-group mb-4">
+                            <label class="">Fecha Última de Menstruación:</label><br>
+                            <input type="date" id="fppFUM" class="form-control focusGreen">
+                        </div>
+                        
+                        <div class="form-group pt-3">
+                            <input type="submit" name="submitFPP" class="btn btnBg-medicina btn-block" value="Calcular">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3 class="text-center mb-4">Resultado</h3>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 @endsection

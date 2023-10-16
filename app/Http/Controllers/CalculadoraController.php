@@ -15,6 +15,6 @@ class CalculadoraController extends Controller
     }
 
     function IMC(){
-        return view('medicina.IMC');
+        return view('medicina.dosis');
     }
 }
